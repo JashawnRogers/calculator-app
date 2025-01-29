@@ -8,27 +8,29 @@
 </head>
 <body>
     <div class="wrapper">
-        <input type="text" id="total" />
-        <div class="buttons">
-            <button onclick="clearInput()">C</button>
-            <button onclick="toggleActual()">+/-</button>
-            <button onclick="togglePercentagel()">%</button>
-            <button onclick="addToInput()">/</button>
-            <button onclick="addToInput()">7</button>
-            <button onclick="addToInput()">8</button>
-            <button onclick="addToInput()">9</button>
-            <button onclick="addToInput()">X</button>
-            <button onclick="addToInput()">4</button>
-            <button onclick="addToInput()">5</button>
-            <button onclick="addToInput()">6</button>
-            <button onclick="addToInput()">-</button>
-            <button onclick="addToInput()">1</button>
-            <button onclick="addToInput()">2</button>
-            <button onclick="addToInput()">3</button>
-            <button onclick="addToInput()">+</button>
-            <button onclick="addToInput()">0</button>
-            <button onclick="addToInput()">.</button>
-            <button onclick="calculateTotal()">=</button>
+        <input type="text" id="total" readonly />
+        <div class="calculator">
+            <div class="buttons">
+                <button onclick="clearInput()">C</button>
+                <button onclick="toggleActual()">+/-</button>
+                <button onclick="togglePercentagel()">%</button>
+                <button onclick="addToInput()" class="orange">/</button>
+                <button onclick="addToInput()">7</button>
+                <button onclick="addToInput()">8</button>
+                <button onclick="addToInput()">9</button>
+                <button onclick="addToInput()" class="orange">X</button>
+                <button onclick="addToInput()">4</button>
+                <button onclick="addToInput()">5</button>
+                <button onclick="addToInput()">6</button>
+                <button onclick="addToInput()" class="orange">-</button>
+                <button onclick="addToInput()">1</button>
+                <button onclick="addToInput()">2</button>
+                <button onclick="addToInput()">3</button>
+                <button onclick="addToInput()" class="orange">+</button>
+                <button onclick="addToInput()" class="zero">0</button>
+                <button onclick="addToInput()">.</button>
+                <button onclick="calculateTotal()" class="orange">=</button>
+            </div>
         </div>
     </div>
 </body>
