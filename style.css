@@ -55,6 +55,6 @@ button {
     background-color: orange;
 }
 
-.zero {
-    grid-column: span 2;
+.span {
+    grid-column: span 4;
 }

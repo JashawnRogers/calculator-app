@@ -5,31 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
         <input type="text" id="total" readonly />
         <div class="calculator">
             <div class="buttons">
+                <button class="orange equation">/</button>
+                <button class="equation">7</button>
+                <button class="equation">8</button>
+                <button class="equation">9</button>
+                <button class="orange equation">X</button>
+                <button class="equation">4</button>
+                <button class="equation">5</button>
+                <button class="equation">6</button>
+                <button class="orange equation">-</button>
+                <button class="equation">1</button>
+                <button class="equation">2</button>
+                <button class="equation">3</button>
+                <button class="orange equation">+</button>
+                <button class="equation">0</button>
+                <button class="equation">.</button>
                 <button onclick="clearInput()">C</button>
-                <button onclick="toggleActual()">+/-</button>
-                <button onclick="togglePercentagel()">%</button>
-                <button onclick="addToInput()" class="orange">/</button>
-                <button onclick="addToInput()">7</button>
-                <button onclick="addToInput()">8</button>
-                <button onclick="addToInput()">9</button>
-                <button onclick="addToInput()" class="orange">X</button>
-                <button onclick="addToInput()">4</button>
-                <button onclick="addToInput()">5</button>
-                <button onclick="addToInput()">6</button>
-                <button onclick="addToInput()" class="orange">-</button>
-                <button onclick="addToInput()">1</button>
-                <button onclick="addToInput()">2</button>
-                <button onclick="addToInput()">3</button>
-                <button onclick="addToInput()" class="orange">+</button>
-                <button onclick="addToInput()" class="zero">0</button>
-                <button onclick="addToInput()">.</button>
-                <button onclick="calculateTotal()" class="orange">=</button>
+                <button onclick="calculateTotal()" class="orange span">=</button>
             </div>
         </div>
     </div>
